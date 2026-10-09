@@ -1,0 +1,17 @@
+[package]
+name = "pausix3d"
+version = "0.1.0"
+edition = "2024"
+description = "A 3D remake of Pausi: a fast cube-vs-cube duel with 6 characters, 12 abilities, 8 maps, and cinematic KOs. Built with Rust and Bevy."
+readme = "README.md"
+license = "MIT"
+
+[dependencies]
+bevy = { version = "0.20.0", default-features = false, features = ["3d", "ui", "png"] }
+
+# Faster debug iteration if you compile without --release.
+[profile.dev]
+opt-level = 1
+
+[profile.dev.package."*"]
+opt-level = 2

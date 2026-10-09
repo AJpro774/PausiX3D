@@ -1,0 +1,16 @@
+# Copy to pausi.cfg to skip the menus. CLI flags override this file.
+# mode = hill
+# map = volcano
+# rounds = 3
+# players = cpu
+# start = yes
+# p1 = dasher
+# p1.a1 = dash
+# p1.a2 = slam
+# p1.trail = sparkle
+# p1.color = rainbow
+# p1.death = shatter
+# p1.victory = fireworks
+# p1.cpu = pro
+# p2 = bomber
+# p2.cpu = berserker
