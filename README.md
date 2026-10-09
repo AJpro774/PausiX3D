@@ -1,6 +1,6 @@
 # PausiX3D
 
-A 3D remake of [Pausi](https://github.com/AJpro774/Pausi), the fast cube-vs-cube duel. Same characters, abilities, maps, and match rules. The cubes, platforms, scenery, weapons, and particles are procedural meshes — there are no art files to download.
+A 3D remake of [Pausi](https://github.com/AJpro774/Pausi), the fast cube-vs-cube duel. Same characters, abilities, maps, and match rules. Every shape keeps the original 2D silhouette and palette, thickened into a lit low-poly diorama and seen from a slight angle. Gameplay stays on the 2D plane. The HUD, menus, and banners are the original flat overlay. There are no art files to download.
 
 Built with Rust and [Bevy](https://bevyengine.org/) 0.20.
 
